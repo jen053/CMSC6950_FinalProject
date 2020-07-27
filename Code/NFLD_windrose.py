@@ -6,7 +6,7 @@ import matplotlib.cm as cm
 from windrose import WindroseAxes, WindAxes, plot_windrose
 
 
-def plot(filename, bins, cmap, plt_type='bar'):
+def plot(filename, location, bins, cmap, plt_type='bar'):
     df = pd.read_csv(filename, header=1, dtype={'Year': int, 'Month': int, 'Day': int, 'Time': str,
                                                 'Wind Dir (10s deg)': float, 'Wind dir Flag': str,
                                                 'Wind Spd (km/h)': float, 'Wind Spd Flag': str}, low_memory=False)
@@ -26,11 +26,16 @@ def plot(filename, bins, cmap, plt_type='bar'):
         ax.contourf(df.direction.values, df.speed.values, bins=bins, cmap=cmap)
     if plt_type == 'box':
         ax.box(df.direction.values, df.speed.values, bins=bins, cmap=cmap)
-    ax.set_legend(ncol=2)
+    if location is not None:
+        ax.set_title('Wind Polar Plot: {}'.format(location), fontsize=16)
+    else:
+        ax.set_title('Wind Polar Plot', fontsize=16)
+    ax.set_legend(ncol=2, title='Wind Speed (km/h)')
     plt.show()
     return None
 
 
-plot('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/Data/st_johns_a_2000_2012.csv',
+plot('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/Data/st_johns_intl_a_2012_2019.csv',
+     location="St. John's Airport",
      bins=np.arange(0.01, 100, 10),
-     plt_type='box', cmap=cm.hot)
+     plt_type='contourf', cmap=cm.hot)
