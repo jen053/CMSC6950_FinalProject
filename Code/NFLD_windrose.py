@@ -7,6 +7,16 @@ from windrose import WindroseAxes, WindAxes, plot_windrose
 
 
 def plot(filename, location, bins, cmap, plt_type='bar'):
+    """
+    Plotting function to generate windrose (polar) diagrams for provided wind speed / directional data.
+    Usage:
+        'filename': type = str; location of .csv data file.
+        'location': type = str; location where data was collected.
+        'bins': type = np.array; np.arrange(minspeed, maxspeed, bin_interval), e.g. np.array(0.001, 100, 10).
+        'cmap': type = matplotlib.cm option; e.g. cmap=cm.hot.
+        'plt_type': type = str; define plot type. 'bar', 'contour', 'contourf', 'box'.
+
+    """
     df = pd.read_csv(filename, header=1, dtype={'Year': int, 'Month': int, 'Day': int, 'Time': str,
                                                 'Wind Dir (10s deg)': float, 'Wind dir Flag': str,
                                                 'Wind Spd (km/h)': float, 'Wind Spd Flag': str}, low_memory=False)
