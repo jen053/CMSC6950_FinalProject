@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 10:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -96,43 +96,49 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 11.
+
+[1
+
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/St.John'
-s.pdf, id=1, 578.16pt x 578.16pt>
+s.pdf, id=9, 578.16pt x 578.16pt>
 File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/St.
 John's.pdf Graphic file (type pdf)
 <use c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/St.J
 ohn's.pdf>
 Package pdftex.def Info: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC69
-50_FinalProject/St.John's.pdf  used on input line 12.
+50_FinalProject/St.John's.pdf  used on input line 32.
 (pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
 
-Overfull \hbox (1.89867pt too wide) in paragraph at lines 12--14
+Overfull \hbox (1.89867pt too wide) in paragraph at lines 32--34
 [][]
  []
 
-[1
+[1 <c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/St.Jo
+hn's.pdf>] (./main.aux)
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/Jacob/
-CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/St.John's.pdf>]
-(./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1160 strings out of 480906
- 17555 string characters out of 5912173
- 252743 words of memory out of 5000000
- 16799 multiletter control sequences out of 15000+600000
- 535693 words of font info for 31 fonts, out of 8000000 for 9000
+ 1171 strings out of 480906
+ 17706 string characters out of 5912173
+ 252751 words of memory out of 5000000
+ 16809 multiletter control sequences out of 15000+600000
+ 537502 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,6n,33p,224b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (1 page, 44416 bytes).
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on main.pdf (2 pages, 67525 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
