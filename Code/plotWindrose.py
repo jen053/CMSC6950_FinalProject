@@ -6,7 +6,7 @@ from mpl_toolkits.basemap import Basemap
 from windrose import WindroseAxes, WindAxes, plot_windrose
 
 
-def plotWindrose(filename, location, cmap, bin_interval=10, plt_type='bar', saveImage=False):
+def plotWindrose(filename, location, plt_type='bar', cmap=cm.hot, bin_interval=10):
     """
     Plotting function to generate windrose (polar) diagrams for provided wind speed / directional data.
     Usage:
@@ -40,14 +40,26 @@ def plotWindrose(filename, location, cmap, bin_interval=10, plt_type='bar', save
     else:
         ax.set_title('Wind Polar Plot', fontsize=16)
     ax.set_legend(ncol=2, title='Wind Speed (km/h)')
-    if saveImage:
-        plt.savefig('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/Images/' + location + '.pdf')
+
+    plt.savefig('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/' + location + '.pdf')
 
     plt.show()
     return None
 
 
-plotWindrose('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/Data/Gander_1980-2012.csv',
-             location="Gander Airport",
-             bin_interval=10,
-             plt_type='contourf', cmap=cm.hot, saveImage=False)
+def main(args):
+    if len(args) != 4:
+        raise SystemExit('Stopped')
+
+    plotWindrose(filename=args[1], location=args[2], plt_type=args[3])
+
+
+if __name__ == '__main__':
+    import sys
+
+    main(sys.argv)
+
+# plotWindrose('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/Data/Gander_1980-2012.csv',
+#              location="Gander Airport",
+#              bin_interval=10,
+#              plt_type='contourf', cmap=cm.hot, saveImage=False)
