@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
+\usepackage{subcaption}
 
 \begin{document}
 \begin{titlepage}
@@ -31,9 +31,28 @@ future climate data and display previously collected data, an example of the for
 for a particular location.  
 
 \begin{figure}[h!]
-\includegraphics[scale=0.6]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/"St.John's.pdf"}
-\label{St._John's_Windrose}
-\caption{St. John's Windrose.}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/bar.pdf}
+\label{bar_windrose}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contour.pdf}
+\label{contour}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contourf.pdf}
+\label{contourf_windrose}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+\centering
+\includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box.pdf}
+\label{box_windrose}
+\end{subfigure}
+\label{windrose_diagrams}
+\caption{.}
 \end{figure}
 
 \end{document}
