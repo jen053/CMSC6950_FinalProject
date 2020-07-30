@@ -1,20 +1,20 @@
 main.pdf: main.tex bar.pdf box.pdf contour.pdf contourf.pdf
 	latexmk -pdf
 
-bar.pdf: data.txt plotbarWindrose.py
-	python plotbarWindrose.py data.txt
+bar.pdf: data.csv plotbarWindrose.py
+	python plotbarWindrose.py data.csv
 
-box.pdf: data.txt plotboxWindrose.py
-	python plotboxWindrose.py
+box.pdf: data.csv plotboxWindrose.py
+	python plotboxWindrose.py data.csv
 
-contour.pdf: data.txt plotcontourWindrose.py
-	python plotcontourWindrose.py
+contour.pdf: data.csv plotcontourWindrose.py
+	python plotcontourWindrose.py data.csv
 
-contourf.pdf: data.txt plotcontourfWindrose.py
-	python plotcontourfWindrose.py
+contourf.pdf: data.csv plotcontourfWindrose.py
+	python plotcontourfWindrose.py data.csv
 
-data.txt: makedata.py
-	python makedata.py
+data.csv:
+	wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O FILENAME
 
 .PHONY: clean almost_clean
 
