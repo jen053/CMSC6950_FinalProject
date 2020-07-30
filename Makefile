@@ -1,8 +1,17 @@
-main.pdf: main.tex myWindrose.pdf
+main.pdf: main.tex bar.pdf box.pdf contour.pdf contourf.pdf
 	latexmk -pdf
 
-myWindrose.pdf: data.txt plotWindrose.py
-	python plotWindrose.py
+bar.pdf: data.txt plotbarWindrose.py
+	python plotbarWindrose.py data.txt
+
+box.pdf: data.txt plotboxWindrose.py
+	python plotboxWindrose.py
+
+contour.pdf: data.txt plotcontourWindrose.py
+	python plotcontourWindrose.py
+
+contourf.pdf: data.txt plotcontourfWindrose.py
+	python plotcontourfWindrose.py
 
 data.txt: makedata.py
 	python makedata.py
