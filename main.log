@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -76,41 +76,63 @@ Package caption Info: Standard document class detected.
 \c@subfigure=\count178
 \c@subtable=\count179
 )
+(c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count180
+\Gm@cntv=\count181
+\c@Gm@tempcnt=\count182
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks18
+)
 (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count180
+\l__kernel_color_stack_int=\count183
 \l__pdf_internal_box=\box45
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count181
-\scratchdimen=\dimen144
+\scratchcounter=\count184
+\scratchdimen=\dimen152
 \scratchbox=\box46
-\nofMPsegments=\count182
-\nofMParguments=\count183
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count184
-\MPscratchDim=\dimen145
-\MPnumerator=\count185
-\makeMPintoPDFobject=\count186
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen153
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks20
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -123,9 +145,43 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.12047pt, 435.04265pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=435.04265pt
+* \textheight=624.25346pt
+* \oddsidemargin=35.85048pt
+* \evensidemargin=35.85048pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 11.
+(Font)              using `OT1/cmr/bx/n' instead on input line 13.
 
 [1
 
@@ -137,12 +193,12 @@ File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/bar
 <use c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/bar.
 pdf>
 Package pdftex.def Info: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC69
-50_FinalProject/bar.pdf  used on input line 36.
-(pdftex.def)             Requested size: 138.00052pt x 137.99371pt.
+50_FinalProject/bar.pdf  used on input line 38.
+(pdftex.def)             Requested size: 191.42055pt x 191.41974pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 40.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <5> on input line 40.
 <c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contour.
 pdf, id=10, 578.16pt x 578.16pt>
 File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/con
@@ -150,8 +206,8 @@ tour.pdf Graphic file (type pdf)
 <use c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/cont
 our.pdf>
 Package pdftex.def Info: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC69
-50_FinalProject/contour.pdf  used on input line 41.
-(pdftex.def)             Requested size: 138.00052pt x 137.99371pt.
+50_FinalProject/contour.pdf  used on input line 43.
+(pdftex.def)             Requested size: 191.42055pt x 191.41974pt.
 <c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contourf
 .pdf, id=11, 578.16pt x 578.16pt>
 File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/con
@@ -159,8 +215,8 @@ tourf.pdf Graphic file (type pdf)
 <use c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/cont
 ourf.pdf>
 Package pdftex.def Info: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC69
-50_FinalProject/contourf.pdf  used on input line 46.
-(pdftex.def)             Requested size: 138.00052pt x 137.99371pt.
+50_FinalProject/contourf.pdf  used on input line 48.
+(pdftex.def)             Requested size: 191.42055pt x 191.41974pt.
 <c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box.pdf,
  id=12, 578.16pt x 578.16pt>
 File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box
@@ -168,15 +224,15 @@ File: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box
 <use c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box.
 pdf>
 Package pdftex.def Info: c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC69
-50_FinalProject/box.pdf  used on input line 51.
-(pdftex.def)             Requested size: 138.00052pt x 137.99371pt.
+50_FinalProject/box.pdf  used on input line 53.
+(pdftex.def)             Requested size: 191.42055pt x 191.41974pt.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 34--55
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 36--58
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 34--55
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 36--58
 []$ $[]$
  []
 
@@ -205,18 +261,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2432 strings out of 480906
- 41765 string characters out of 5912173
- 276998 words of memory out of 5000000
- 18060 multiletter control sequences out of 15000+600000
+ 2942 strings out of 480906
+ 49064 string characters out of 5912173
+ 288201 words of memory out of 5000000
+ 18560 multiletter control sequences out of 15000+600000
  537502 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,47p,255b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,47p,323b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (2 pages, 141953 bytes).
+Output written on main.pdf (2 pages, 143280 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream

@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{geometry}
+\geometry{left=38mm,top=30mm,bottom=30mm,right=25mm}
 
 \begin{document}
 \begin{titlepage}
@@ -31,28 +33,29 @@ future climate data and display previously collected data, an example of the for
 for a particular location.  
 
 \begin{figure}[h!]
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.55\textwidth}
 \centering
 \includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/bar.pdf}
 \label{bar_windrose}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.55\textwidth}
 \centering
 \includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contour.pdf}
 \label{contour}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.55\textwidth}
 \centering
 \includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contourf.pdf}
 \label{contourf_windrose}
 \end{subfigure}
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.55\textwidth}
 \centering
 \includegraphics[width=.8\linewidth]{c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/box.pdf}
 \label{box_windrose}
 \end{subfigure}
 \label{windrose_diagrams}
-\caption{.}
+\caption{Directional wind data plotted in different type of polar diagrams for the Windrose Python package. 
+Upper left: bar; upper right: contour, lower left: filled contour; lower right: box.}
 \end{figure}
 
 \end{document}
