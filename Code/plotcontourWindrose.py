@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
+import sys
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from mpl_toolkits.basemap import Basemap
 from windrose import WindroseAxes, WindAxes, plot_windrose
 
 def plotcontourWindrose(filename, location, cmap=cm.hot, bin_interval=10):
@@ -27,7 +27,7 @@ def plotcontourWindrose(filename, location, cmap=cm.hot, bin_interval=10):
     ax.set_title('Wind Polar Plot: {}'.format(location), fontsize=16)
     ax.set_legend(ncol=2, title='Wind Speed (km/h)')
 
-    plt.savefig('C:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/contour.pdf')
+    plt.savefig('contour.pdf')
 
     plt.show()
     return None
@@ -41,6 +41,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    import sys
-
     main(sys.argv)

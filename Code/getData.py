@@ -1,10 +1,10 @@
 import wget
-
+import sys
 
 def getData(location):
     url = 'https://raw.githubusercontent.com/jen053/windData/master/' + location + '.csv'
 
-    wget.download(url, 'c:/Users/Jacob/CMSC6950_py/Open_Science_Project/CMSC6950_FinalProject/data.txt')
+    wget.download(url, 'data.txt')
 
     return None
 
@@ -17,6 +17,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    import sys
-
     main(sys.argv)
