@@ -27,7 +27,7 @@ def plotbarWindrose(filename, location, cmap=cm.hot, bin_interval=10):
     ax.set_title('Wind Polar Plot: {}'.format(location), fontsize=16)
     ax.set_legend(ncol=2, title='Wind Speed (km/h)')
 
-    plt.savefig('../bar.pdf')
+    plt.savefig('bar.pdf')
 
     plt.show()
     return None
