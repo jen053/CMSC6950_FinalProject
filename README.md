@@ -1,4 +1,4 @@
-#CMSC 6950 Open Science Project
+# CMSC 6950 Open Science Project
 ## Windrose
 
 Welcolme to Jacob Newman's CMSC 6950 final project. This project focuses on the Python based Windrose package which plots wind speed and directional data to generate polar (rose) diagrams for wind data.
