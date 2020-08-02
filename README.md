@@ -42,6 +42,5 @@ An example would therefore be:
 ```
 $ make location="St.Johns_2012-2019"
 ```
-All data in the windData repository was retrived from Canadian Climate Data Accessibility Portal (CCDAP) by Concordia University 
-(https://users.encs.concordia.ca/~s_iwa/CCDAP.html?fbclid=IwAR2okkQVjo2zkayAzC3q2uA1IwFFm4nIuoVPx-zlosE3TRKAF7VFPkJK5Qc). Any additional wind data of interest can be access through this portal, add to 
-the windData repository and subsequently implemented into the workflow. 
+All data in the windData repository was retrived from Canadian Climate Data Accessibility Portal (CCDAP) by Concordia University (https://users.encs.concordia.ca/~s_iwa/CCDAP.html?fbclid=IwAR2okkQVjo2zkayAzC3q2uA1IwFFm4nIuoVPx-zlosE3TRKAF7VFPkJK5Qc).
+Any additional wind data of interest can be accessed through this portal, added to the windData repository and subsequently implemented into the workflow. 
