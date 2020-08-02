@@ -1,9 +1,12 @@
 # CMSC 6950 Open Science Project
-## Windrose
+## Windrose: Getting Started
 
 Welcolme to Jacob Newman's CMSC 6950 final project. This project focuses on the Python based Windrose package which plots wind speed and directional data to generate polar (rose) diagrams for wind data.
+This work flow takes a number of the elements of the Windrose package and applies them to user selected wind data from airports around Newfoundland and Labrador. Once a certain data set (see below) has 
+been selected, a Makefile runs all the needed scripts to produce plots and to generate a report.
 
-To run this projects workflow, a number of instances have to be installed.
+To begin the workflow implementation, clone the repository to a system capable of running a Makefile. To run this projects workflow, a number of instances have to be installed:
+## Dependences:
 
 (1). The windrose package should be installed via pip: pip install windrose
      addtional packages that are used in the backgroud of windrose are numpy
@@ -14,4 +17,4 @@ To run this projects workflow, a number of instances have to be installed.
 (2). Some type of LaTeX complier must be installed such that a .tex file can be called
      by a pdflatex.exe to generate a .pdf file. (https://www.tug.org/texlive/).
 
-(3). ...
+(3). As stated above, a Makefile must be able to be complied on the system.
