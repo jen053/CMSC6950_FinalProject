@@ -24,8 +24,18 @@ To begin the workflow implementation, clone the repository to a system capable o
 When running the Makefile a location variable needs to be passed. This location varible defines what dataset should be retrived from a wind data repository. All the availble locations are airports from 
 around Newfoundland and Labrador including:
 
-* Argentia_1953-1970 * Buchans_1953-1965 * Cartwright_2015-2018
-* ChurchillFalls_2011-2019 * DeerLake_1980-2012 * Gander_1980-2012
-* GooseBay_1990-2019 * Makkovik_2015-2019 * Mary'sHarbour_2013-2015
-* Nain_1990-2015 * Saglek_1991-1994 * St.Anthony_2009-2012
-* St.Johns_2012-2019 * Stephenville_1980-2012 * WabushLake_1985-2013
+* Argentia_1953-1970 
+* Buchans_1953-1965 
+* Cartwright_2015-2018
+* ChurchillFalls_2011-2019 
+* DeerLake_1980-2012 
+* Gander_1980-2012
+* GooseBay_1990-2019 
+* Makkovik_2015-2019 
+* Mary'sHarbour_2013-2015
+* Nain_1990-2015 
+* Saglek_1991-1994 
+* St.Anthony_2009-2012
+* St.Johns_2012-2019 
+* Stephenville_1980-2012 
+* WabushLake_1985-2013
