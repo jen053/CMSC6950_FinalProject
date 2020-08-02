@@ -38,4 +38,7 @@ around Newfoundland and Labrador including:
 * St.Anthony_2009-2012
 
 An example would therefore be:
-	make location="St.Johns_2012-2019"
+
+'''
+$ make location="St.Johns_2012-2019"
+'''
