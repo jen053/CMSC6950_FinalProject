@@ -39,6 +39,6 @@ around Newfoundland and Labrador including:
 
 An example would therefore be:
 
-'''
+```
 $ make location="St.Johns_2012-2019"
-'''
+```
