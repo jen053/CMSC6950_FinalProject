@@ -36,6 +36,9 @@ around Newfoundland and Labrador including:
 * Nain_1990-2015 
 * Saglek_1991-1994 
 * St.Anthony_2009-2012
+* St.Johns_2012-2019
+* Stephenville_1980-2012
+* WabushLake_1985-2013
 
 An example would therefore be:
 
