@@ -46,7 +46,7 @@ def plotMap(loc):
     locations = dict(zip(places, lat_lons))
 
     plt.figure(figsize=(20, 20))
-    mapbounds = [[-63, 46, -52.5, 60]]
+    mapbounds = [[-63, 46, -52, 60]]
     map = [Basemap(i, j, k, l, resolution='i', projection='tmerc', lat_0=47, lon_0=-53) for i, j, k, l in mapbounds]
     m = map[0]
     coords = m(locations[loc][1], locations[loc][0])
@@ -54,7 +54,10 @@ def plotMap(loc):
     m.drawmapboundary(fill_color='aqua')
     m.fillcontinents(color='coral', lake_color='aqua')
     m.drawcoastlines()
-    m.plot(coords[0], coords[1], marker='o', color='red', markersize=10)
+    m.drawparallels(np.arange(40, 60, 1), labels=[1, 0, 0, 0])
+    m.drawmeridians(np.arange(-65, -50, 1), labels=[0, 0, 0, 1])
+    m.plot(coords[0], coords[1], marker='*', color='yellow', markersize=11)
+
     plt.savefig('location.pdf')
     plt.show()
 
