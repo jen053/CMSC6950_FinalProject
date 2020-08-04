@@ -4,8 +4,8 @@ main.pdf: main.tex bar.pdf box.pdf contour.pdf contourf.pdf location.pdf
 data.txt: Code/getData.py
 	python3 Code/getData.py $(location)
 
-location.pdf: Code/getMap.py
-	python3 Code/getMap.py $(location) 
+location.pdf: Code/plotMap.py
+	python3 Code/plotMap.py $(location) 
 
 bar.pdf: data.txt Code/plotbarWindrose.py
 	python3 Code/plotbarWindrose.py data.txt $(location)
