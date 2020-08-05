@@ -34,12 +34,12 @@ measure how the strength of storms is changing due to climate change (Mendelsohn
 farms (Cetinay, Kuipers, and Guven, 2016) for a source of clean, renewable energy. For optimal placement of wind turbines, promenent wind directions and the associated wind speeds need to be plotted and 
 analyzed. Other applications of studying wind data include mapping air pollution sources (Adams and Kanaroglou, 2016) and knowledge of dominate wind directions at airports, important information for 
 pilots and air traffic controllers (Bellasio, 2014).
-
+\\
 \indent Here we will look at the last of the applications in connection to airports in Newfoundland and Labrador. Wind speed and directional data are collected at each airport through out the province, 
 making data access relatively simple. A Python based wind data visulization package Windrose (Roubeyrie and Celles, 2018) will be employed to show several variations of polar diagrams used to plot each 
 airport's respective wind data. Although we propose the purpose of this study to be that of knowledge gathering for pilots and air traffic controllers, a broad connection to the potential for wind 
 energy production in the province of Newfoundland and Labrador (a long discussed topic) can be made. We a merely limited by the availablity of data to fully engage in the study of wind power potential. 
-
+\\
 \indent The remainder of this report is structed as follows, in section (\ref{Data_access}) we discuess data access and collection, in section (\ref{Wind_data_visualization}) we introduce the Windrose  
 package and show multiple visualizations of direction wind data for a user-defined airport (see README), finally in section (\ref{Discussion_and_conclusions}) we breifly discuss and conclude on some key 
 points.      
@@ -47,7 +47,14 @@ points.
 \section{Methodology}\label{Methodology}
 
 \subsection{Data Access}\label{Data_access}
-
+The README file should be consluted for prelimnanry data access information and for instructions on how to call data from a particular airport. Here we talk about where the data is from and how it is 
+collected. All the data (fithteen sets) available from the windData repository was accessed through the Canadian Climate Data Accessibility Portal (CCDAP). The CCDAP is a public data query platform which 
+holds Canadian historical climate data collected and maintained by Environment and Climate Change Canada. CCDAP was made at the Water Security and Climate Change Lab (WSCC) at Concordia University. As 
+mentioned above, each data set was collected at an airport in Newfoundland and Labrador over some range of time (given in data set name). The data has been stripped to only include data/time, wind speed 
+and wind direction information; full data sets for each locality include multiple addtional weather measures such as temperature and visiablity. The decision to only include wind data in this report (as 
+other data, visiablity in particular, is also important information for air travel) was for two main reasons, firstly, the CCDAP limits the size of data sets and thus including additional weather 
+measurements would restricted the range of time of each data set subsequently degraded the historical aspect of the information gather by this study. Secondy, the Windrose package currently provides no 
+mechinism for analizing weather data other then wind data.
 \subsection{Wind Data Visualization}\label{Wind_data_visualization}
 
 \begin{figure}[h!]
