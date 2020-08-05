@@ -45,7 +45,7 @@ def plotMap(loc):
 
     locations = dict(zip(places, lat_lons))
 
-    plt.figure(figsize=(20, 20))
+    plt.figure(figsize=(20, 15))
     mapbounds = [[-63, 46, -52, 60]]
     map = [Basemap(i, j, k, l, resolution='i', projection='tmerc', lat_0=47, lon_0=-53) for i, j, k, l in mapbounds]
     m = map[0]
@@ -58,9 +58,10 @@ def plotMap(loc):
     m.drawmeridians(np.arange(-65, -50, 1), labels=[0, 0, 0, 1])
     m.plot(coords[0], coords[1], marker='*', color='yellow', markersize=11)
 
-    plt.savefig('location.pdf')
+    plt.savefig('location.pdf', pad_inches=0, bbox_inches='tight')
     plt.show()
 
+plotMap('St.Johns_2012-2019')
 
 def main(args):
     if len(args) != 2:
