@@ -4,7 +4,8 @@
 \usepackage{subcaption}
 \usepackage{geometry}
 \geometry{left=38mm,top=30mm,bottom=30mm,right=25mm}
-
+\usepackage{setspace}
+\doublespacing
 \begin{document}
 \begin{titlepage}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
@@ -26,7 +27,13 @@
 
 \end{titlepage}
 
+\begin{center}
+\bf{Abstract}
 
+Understanding historical climate data has become a major area of study across many fields in the past two decades, graphic tools to depict climate data help scientist convey their information to the 
+general public which inturn allows often complicated warnings to be easly understood by people not familier with the topics. Here discuss one of these amin
+
+\end{center}
 \section{Introduction}\label{Introduction}
 Great strives to better understand and display historical climatological data have been made in the past decade due to growing concerns over climate change among other things. One climatological data set 
 that has a diverse range of importance when addressing these problems is wind data. Changes in major wind patterns, such as increases in the power of wind systems over time, can be used as a gauge to 
@@ -75,7 +82,14 @@ The Windrose package is a graphic tool used to give a view of how wind speed and
 Matplotlib to produce multiple polar (rose) diagrams for a given data set. These Windrose diagrams can subsquently be used in applications mentioned in section (\ref{Introduction}), among others. When 
 these diagrams are tied with positional digrams, such as the one seen in figure (\ref{location}) showing the location of the data presented in this report, links can be made between environmental aspect 
 (wind tunnel effects, proximity to oceans, etc.) and the preferred wind directions.
-\\
+
+\begin{figure}[h!]                                                                                                                                                                                                 
+\centering                                                                                                                                                                                                         
+\includegraphics[width=10 cm]{location.pdf}                                                                                                                                                                       
+\caption{Map of Newfoundland and Labrador annoted by location of wind data collection (yellow star).}                                                                                                              
+\label{location}                                                                                                                                                                                                   
+\end{figure}
+
 \indent Four main Windrose diagrams are offered with the package. The directional wind data for the user-defined location are plotted below with each variation of the Windrose diagrams. In figure 
 (\ref{bar}), a bar polar diagram is shown, where the direction of the wind is dipicted by the azmuthal location of each bar. The outward extent of each bar represents the amount of wind direction 
 measurements that resulted in each respective direction. Finally, the color scheme of the bars represents the range wind speeds observed in each direction. Figure (\ref{box}) is similar to figure 
@@ -86,15 +100,7 @@ contours while still filling in the areas between them.
 \indent As the plots are dependent on the data set chosen by the user no attempt will be made to intrepret and describe a particular Windrose diagra, similarily we will not describe each data set as 
 there fithteen potential locations which would result in quite a length, repeitive process. The main take away from this section is the use of the Windrose diagrams to present the Newfoundland and 
 Labrador aviation wind data and the potential application these plots have when used congurently with some type of location plot such as the map shown below.
- 
-
-\begin{figure}[h!]                                                                                                                                                                                                 
-\centering                                                                                                                                                                                                         
-\includegraphics[width=10 cm]{location.pdf}                                                                                                                                                                                                
-\caption{Map of Newfoundland and Labrador annoted by location of wind data collection (yellow star).}
-\label{location}                                                                                                              
-\end{figure} 
-  
+   
 \begin{figure}[h!]
 \centering
 \includegraphics[width=10cm]{bar.pdf}
@@ -123,6 +129,7 @@ Labrador aviation wind data and the potential application these plots have when 
 \label{contourf}
 \end{figure}
 
+\clearpage
 \section{Discussion and Conclusions}\label{Discussion_and_conclusions}
 
 
