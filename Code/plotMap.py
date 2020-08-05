@@ -56,7 +56,7 @@ def plotMap(loc):
     m.drawcoastlines()
     m.drawparallels(np.arange(40, 60, 1), labels=[1, 0, 0, 0])
     m.drawmeridians(np.arange(-65, -50, 1), labels=[0, 0, 0, 1])
-    m.plot(coords[0], coords[1], marker='*', color='yellow', markersize=11)
+    m.plot(coords[0], coords[1], marker='*', color='yellow', markersize=15)
 
     plt.savefig('location.pdf', pad_inches=0, bbox_inches='tight')
     plt.show()
