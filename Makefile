@@ -1,11 +1,14 @@
-main.pdf: main.tex bar.pdf box.pdf contour.pdf contourf.pdf location.pdf
+main.pdf: main.tex main.bib bar.pdf box.pdf contour.pdf contourf.pdf location.pdf
+	pdflatex main.tex
+	bibtex main
 	pdflatex main.tex
 	pdflatex main.tex
+
 data.txt: Code/getData.py
 	python3 Code/getData.py $(location)
 
 location.pdf: Code/plotMap.py
-	python3 Code/plotMap.py $(location) 
+	python3 Code/plotMap.py $(location)
 
 bar.pdf: data.txt Code/plotbarWindrose.py
 	python3 Code/plotbarWindrose.py data.txt $(location)
@@ -28,4 +31,5 @@ clean:
 almost_clean:
 	rm main.log
 	rm main.aux
-
+	rm main.bbl
+	rm main.blg
