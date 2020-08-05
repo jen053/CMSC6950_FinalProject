@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  4 AUG 2020 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  5 AUG 2020 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -52,37 +52,6 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-(c:/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen137
-\WF@size=\dimen138
-\c@WF@wrappedlines=\count176
-\WF@box=\box45
-\WF@everypar=\toks18
-Package: wrapfig 2003/01/31  v 3.6
-)
-(c:/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty
-(c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-07-17 L3 programming layer (loader) 
-
-(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count177
-\l__pdf_internal_box=\box46
-))
-(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-05-15 L3 Experimental document command parser
-
-(c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count178
-\g__xparse_grabber_int=\count179
-\l__xparse_m_args_int=\count180
-\l__xparse_v_nesting_int=\count181
-))
-Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-
-(c:/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-))
 (c:/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
@@ -92,21 +61,20 @@ Package: caption 2020/05/30 v3.4k Customizing captions (AR)
 (c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen139
-\captionmargin@=\dimen140
-\captionwidth=\dimen141
-\caption@tempdima=\dimen142
-\caption@indent=\dimen143
-\caption@parindent=\dimen144
-\caption@hangindent=\dimen145
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count182
-\c@continuedfloat=\count183
-Package caption Info: wrapfig package is loaded.
+\c@caption@flags=\count176
+\c@continuedfloat=\count177
 )
-\c@subfigure=\count184
-\c@subtable=\count185
+\c@subfigure=\count178
+\c@subtable=\count179
 )
 (c:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -117,49 +85,54 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count186
-\Gm@cntv=\count187
-\c@Gm@tempcnt=\count188
-\Gm@bindingoffset=\dimen146
-\Gm@wd@mp=\dimen147
-\Gm@odd@mp=\dimen148
-\Gm@even@mp=\dimen149
-\Gm@layoutwidth=\dimen150
-\Gm@layoutheight=\dimen151
-\Gm@layouthoffset=\dimen152
-\Gm@layoutvoffset=\dimen153
-\Gm@dimlist=\toks19
-) (./main.aux)
+\Gm@cnth=\count180
+\Gm@cntv=\count181
+\c@Gm@tempcnt=\count182
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks18
+)
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count183
+\l__pdf_internal_box=\box45
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-
-(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count189
-\scratchdimen=\dimen154
-\scratchbox=\box47
-\nofMPsegments=\count190
-\nofMParguments=\count191
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count192
-\MPscratchDim=\dimen155
-\MPnumerator=\count193
-\makeMPintoPDFobject=\count194
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count184
+\scratchdimen=\dimen152
+\scratchbox=\box46
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen153
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks20
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -208,13 +181,17 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 15.
+(Font)              using `OT1/cmr/bx/n' instead on input line 13.
 
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: File `bar.pdf' not found on input line 41.
+LaTeX Warning: Reference `Discussion_and_conclusion' on page 1 undefined on inp
+ut line 44.
+
+
+LaTeX Warning: File `bar.pdf' not found on input line 56.
 
 
 ! Package pdftex.def Error: File `bar.pdf' not found: using draft setting.
@@ -223,16 +200,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \includegraphics[width=.8\linewidth]{bar.pdf}
+l.56 \includegraphics[width=.8\linewidth]{bar.pdf}
                                                   
-? R
-OK, entering \nonstopmode...
+? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 58.
 
-LaTeX Warning: File `contour.pdf' not found on input line 46.
+LaTeX Warning: File `contour.pdf' not found on input line 61.
 
 
 ! Package pdftex.def Error: File `contour.pdf' not found: using draft setting.
@@ -241,13 +217,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 ...egraphics[width=.8\linewidth]{contour.pdf}
+l.61 ...egraphics[width=.8\linewidth]{contour.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+? 
 
-
-LaTeX Warning: File `contourf.pdf' not found on input line 51.
+LaTeX Warning: File `contourf.pdf' not found on input line 66.
 
 
 ! Package pdftex.def Error: File `contourf.pdf' not found: using draft setting.
@@ -257,13 +231,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...graphics[width=.8\linewidth]{contourf.pdf}
+l.66 ...graphics[width=.8\linewidth]{contourf.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+? 
 
-
-LaTeX Warning: File `box.pdf' not found on input line 56.
+LaTeX Warning: File `box.pdf' not found on input line 71.
 
 
 ! Package pdftex.def Error: File `box.pdf' not found: using draft setting.
@@ -272,44 +244,24 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \includegraphics[width=.8\linewidth]{box.pdf}
+l.71 \includegraphics[width=.8\linewidth]{box.pdf}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+? 
 
-
-Overfull \hbox (45.72913pt too wide) in paragraph at lines 39--61
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 54--75
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (45.72913pt too wide) in paragraph at lines 39--61
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 54--75
 []$ $[]$
  []
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \protect 
-l.65 \centering
-               
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \protect 
-l.65 \centering
-               
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: File `location.pdf' not found on input line 66.
+LaTeX Warning: File `location.pdf' not found on input line 80.
 
 
 ! Package pdftex.def Error: File `location.pdf' not found: using draft setting.
@@ -319,36 +271,38 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...aphics[width=0.45\textwidth]{location.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.80 \includegraphics[width=10 cm]{location.pdf}
+                                                
+? 
 
-[1] [2] (./main.aux)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1] [2] [3] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3640 strings out of 480906
- 65389 string characters out of 5912173
- 562942 words of memory out of 5000000
- 19223 multiletter control sequences out of 15000+600000
- 537670 words of font info for 38 fonts, out of 8000000 for 9000
+ 3021 strings out of 480906
+ 48505 string characters out of 5912173
+ 291274 words of memory out of 5000000
+ 18624 multiletter control sequences out of 15000+600000
+ 538285 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,6n,47p,323b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (3 pages, 64471 bytes).
+ 45i,6n,47p,323b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (4 pages, 80769 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

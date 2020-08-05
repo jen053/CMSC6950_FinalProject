@@ -30,8 +30,25 @@
 \section{Introduction}\label{Introduction}
 Great strives to better understand and display historical climatological data have been made in the past decade due to growing concerns over climate change among other things. One climatological data set 
 that has a diverse range of importance when addressing these problems is wind data. Changes in major wind patterns, such as increases in the power of wind systems over time, can be used as a gauge to 
-measure how the strength of storms is changing due to climate change. Another application of study of wind data, in particular directional wind data, is designing wind power farms for a source of clean, 
-renewable energy.   
+measure how the strength of storms is changing due to climate change (Mendelsohn et al. 2012). Another application of study of wind data, in particular directional wind data, is designing wind power 
+farms (Cetinay, Kuipers, and Guven, 2016) for a source of clean, renewable energy. For optimal placement of wind turbines, promenent wind directions and the associated wind speeds need to be plotted and 
+analyzed. Other applications of studying wind data include mapping air pollution sources (Adams and Kanaroglou, 2016) and knowledge of dominate wind directions at airports, important information for 
+pilots and air traffic controllers (Bellasio, 2014).
+
+\indent Here we will look at the last of the applications in connection to airports in Newfoundland and Labrador. Wind speed and directional data are collected at each airport through out the province, 
+making data access relatively simple. A Python based wind data visulization package Windrose (Roubeyrie and Celles, 2018) will be employed to show several variations of polar diagrams used to plot each 
+airport's respective wind data. Although we propose the purpose of this study to be that of knowledge gathering for pilots and air traffic controllers, a broad connection to the potential for wind 
+energy production in the province of Newfoundland and Labrador (a long discussed topic) can be made. We a merely limited by the availablity of data to fully engage in the study of wind power potential. 
+
+\indent The remainder of this report is structed as follows, in section (\ref{Data_access}) we discuess data access and collection, in section (\ref{Wind_data_visualization}) we introduce the Windrose  
+package and show multiple visualizations of direction wind data for a user-defined airport (see README), finally in section (\ref{Discussion_and_conclusions}) we breifly discuss and conclude on some key 
+points.      
+
+\section{Methodology}\label{Methodology}
+
+\subsection{Data Access}\label{Data_access}
+
+\subsection{Wind Data Visualization}\label{Wind_data_visualization}
 
 \begin{figure}[h!]
 \begin{subfigure}{.55\textwidth}
@@ -55,8 +72,7 @@ renewable energy.
 \label{box_windrose}
 \end{subfigure}
 \label{windrose_diagrams}
-\caption{Directional wind data plotted in different type of polar diagrams for the Windrose Python package. 
-Upper left: bar; upper right: contour, lower left: filled contour; lower right: box.}
+\caption{Directional wind data plotted in different type of polar diagrams for the Windrose Python package. Upper left: bar; upper right: contour, lower left: filled contour; lower right: box.}
 \end{figure}
 
 \begin{figure}[h!]
@@ -65,5 +81,7 @@ Upper left: bar; upper right: contour, lower left: filled contour; lower right: 
 \label{location}
 \caption{Map of Newfoundland and Labrador annoted by location of wind data collection (yellow star).}
 \end{figure}
+
+\section{Disscusion and Conclusions}\label{Disscusion_and_conclusions}
 
 \end{document}
