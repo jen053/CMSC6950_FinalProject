@@ -19,6 +19,8 @@ To begin the workflow implementation, clone the repository to a system capable o
 
 (3). As stated above, a Makefile must be able to be complied on the system.
 
+(4). mpl_toolkits.basemap package (https://matplotlib.org/basemap/users/installing.html).
+
 ### Data Access:
 
 When running the Makefile a location variable needs to be passed. This location varible defines what dataset should be retrived from a wind data repository. All the availble locations are airports from 
