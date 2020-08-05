@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  5 AUG 2020 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.29)  5 AUG 2020 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,16 +190,22 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 LaTeX Warning: Reference `Discussion_and_conclusions' on page 1 undefined on in
 put line 44.
 
-<Images/AWOS.jpg, id=9, 515.49399pt x 249.94376pt>
+
+Package caption Warning: \label without proper reference on input line 63.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `AWOS' on page 1 undefined on input line 60.
+
+[1]
+<Images/AWOS.jpg, id=14, 515.49399pt x 249.94376pt>
 File: Images/AWOS.jpg Graphic file (type jpg)
 <use Images/AWOS.jpg>
-Package pdftex.def Info: Images/AWOS.jpg  used on input line 62.
+Package pdftex.def Info: Images/AWOS.jpg  used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 137.96146pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: File `bar.pdf' not found on input line 73.
+LaTeX Warning: File `bar.pdf' not found on input line 77.
 
 
 ! Package pdftex.def Error: File `bar.pdf' not found: using draft setting.
@@ -208,15 +214,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \includegraphics[width=.8\linewidth]{bar.pdf}
+l.77 \includegraphics[width=.8\linewidth]{bar.pdf}
                                                   
 ? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 79.
 
-LaTeX Warning: File `contour.pdf' not found on input line 78.
+LaTeX Warning: File `contour.pdf' not found on input line 82.
 
 
 ! Package pdftex.def Error: File `contour.pdf' not found: using draft setting.
@@ -225,11 +231,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 ...egraphics[width=.8\linewidth]{contour.pdf}
+l.82 ...egraphics[width=.8\linewidth]{contour.pdf}
                                                   
 ? 
 
-LaTeX Warning: File `contourf.pdf' not found on input line 83.
+LaTeX Warning: File `contourf.pdf' not found on input line 87.
 
 
 ! Package pdftex.def Error: File `contourf.pdf' not found: using draft setting.
@@ -239,11 +245,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...graphics[width=.8\linewidth]{contourf.pdf}
+l.87 ...graphics[width=.8\linewidth]{contourf.pdf}
                                                   
 ? 
 
-LaTeX Warning: File `box.pdf' not found on input line 88.
+LaTeX Warning: File `box.pdf' not found on input line 92.
 
 
 ! Package pdftex.def Error: File `box.pdf' not found: using draft setting.
@@ -252,16 +258,16 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \includegraphics[width=.8\linewidth]{box.pdf}
+l.92 \includegraphics[width=.8\linewidth]{box.pdf}
                                                   
 ? 
 
-Overfull \hbox (45.72913pt too wide) in paragraph at lines 71--92
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 75--96
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (45.72913pt too wide) in paragraph at lines 71--92
+Overfull \hbox (45.72913pt too wide) in paragraph at lines 75--96
 []$ $[]$
  []
 
@@ -269,7 +275,7 @@ Overfull \hbox (45.72913pt too wide) in paragraph at lines 71--92
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: File `location.pdf' not found on input line 97.
+LaTeX Warning: File `location.pdf' not found on input line 101.
 
 
 ! Package pdftex.def Error: File `location.pdf' not found: using draft setting.
@@ -279,13 +285,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \includegraphics[width=10 cm]{location.pdf}
-                                                
+l.101 \includegraphics[width=10 cm]{location.pdf}
+                                                 
 ? 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1] [2 <./Images/AWOS.jpg>] [3] (./main.aux)
+[2 <./Images/AWOS.jpg>] [3] [4] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -299,7 +305,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  3029 strings out of 480906
  48621 string characters out of 5912173
- 293274 words of memory out of 5000000
+ 291307 words of memory out of 5000000
  18630 multiletter control sequences out of 15000+600000
  538285 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -310,10 +316,10 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020
 ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (4 pages, 782373 bytes).
+Output written on main.pdf (5 pages, 783461 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
