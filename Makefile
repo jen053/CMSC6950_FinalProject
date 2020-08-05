@@ -1,6 +1,6 @@
 main.pdf: main.tex bar.pdf box.pdf contour.pdf contourf.pdf location.pdf
 	pdflatex main.tex
-
+	pdflatex main.tex
 data.txt: Code/getData.py
 	python3 Code/getData.py $(location)
 
