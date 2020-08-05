@@ -30,13 +30,13 @@
 \section{Introduction}\label{Introduction}
 Great strives to better understand and display historical climatological data have been made in the past decade due to growing concerns over climate change among other things. One climatological data set 
 that has a diverse range of importance when addressing these problems is wind data. Changes in major wind patterns, such as increases in the power of wind systems over time, can be used as a gauge to 
-measure how the strength of storms is changing due to climate change (Mendelsohn et al. 2012). Another application of study of wind data, in particular directional wind data, is designing wind power 
-farms (Cetinay, Kuipers, and Guven, 2016) for a source of clean, renewable energy. For optimal placement of wind turbines, promenent wind directions and the associated wind speeds need to be plotted and 
-analyzed. Other applications of studying wind data include mapping air pollution sources (Adams and Kanaroglou, 2016) and knowledge of dominate wind directions at airports, important information for 
-pilots and air traffic controllers (Bellasio, 2014).
+measure how the strength of storms is changing due to climate change \cite{Mendelsohn2012}. Another application of study of wind data, in particular directional wind data, is designing wind power 
+farms \cite{CETINAY201751} for a source of clean, renewable energy. For optimal placement of wind turbines, promenent wind directions and the associated wind speeds need to be plotted and 
+analyzed. Other applications of studying wind data include mapping air pollution sources \cite{ADAMS2016133} and knowledge of dominate wind directions at airports, important information for 
+pilots and air traffic controllers \cite{jairm26}.
 \\
 \indent Here we will look at the last of the applications in connection to airports in Newfoundland and Labrador. Wind speed and directional data are collected at each airport through out the province, 
-making data access relatively simple. A Python based wind data visulization package Windrose (Roubeyrie and Celles, 2018) will be employed to show several variations of polar diagrams used to plot each 
+making data access relatively simple. A Python based wind data visulization package Windrose \cite{Roubeyrie2018} will be employed to show several variations of polar diagrams used to plot each 
 airport's respective wind data. Although we propose the purpose of this study to be that of knowledge gathering for pilots and air traffic controllers, a broad connection to the potential for wind 
 energy production in the province of Newfoundland and Labrador (a long discussed topic) can be made. We a merely limited by the availablity of data to fully engage in the study of wind power potential. 
 \\
@@ -65,7 +65,7 @@ to the airport and pilots. This weather data is then stored and accessed via pub
 \centering
 \includegraphics[width=10cm]{Images/AWOS.jpg}
 \caption{Automated Weather Observation System (AWOS) used to monitor weather at many airports throughout Canada. Older data sets or data sets from remote areas would have been collected on a similar, 
-less-advanced weather station.}
+less-advanced weather station. Figure from NAV Canada.}
 \label{AWOS}
 \end{figure}
 
@@ -99,7 +99,7 @@ Labrador aviation wind data and the potential application these plots have when 
 \centering
 \includegraphics[width=10cm]{bar.pdf}
 \caption{Directional wind data from user-defined Newfoundland and Labrador airport plotted on a bar polar diagram from the Windrose Python package.}
-\label{bar_windrose}
+\label{bar}
 \end{figure}
 
 \begin{figure}[h!]
@@ -113,16 +113,20 @@ Labrador aviation wind data and the potential application these plots have when 
 \centering
 \includegraphics[width=10cm]{contour.pdf}
 \caption{Directional wind data from user-defined Newfoundland and Labrador airport plotted on a contour polar diagram from the Windrose Python package.}
-\label{contour_windrose}
+\label{contour}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=10cm]{contourf.pdf}
 \caption{Directional wind data from user-defined Newfoundland and Labrador airport plotted on a filled contour polar diagram from the Windrose Python package.}
-\label{contourf_windrose}
+\label{contourf}
 \end{figure}
 
 \section{Discussion and Conclusions}\label{Discussion_and_conclusions}
+fifififififififififififififififififfififififififififififififif
 
+\clearpage 
+\bibliographystyle{unsrt}
+\bibliography{main}
 \end{document}
