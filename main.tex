@@ -71,6 +71,18 @@ less-advanced weather station.}
 
 \subsection{Wind Data Visualization}\label{Wind_data_visualization}
 
+The Windrose package is a graphic tool used to give a view of how wind speed and direction are typically distributed at a particular location (Roubeyrie and Cellers, 2018). The package is backend my 
+Matplotlib to produce multiple polar (rose) diagrams for a given data set. These Windrose diagrams can subsquently be used in applications mentioned in section (\ref{Introduction), among others. When 
+these diagrams are tied with positional digrams, such as the one seen in figure (\ref{location}) showing the location of the data presented in this report, links can be made between environmental aspect 
+(wind tunnel effects, proximity to oceans, etc.) and the preferred wind directions.
+
+\begin{figure}[h!]                                                                                                                                                                                                 
+\centering                                                                                                                                                                                                         
+\includegraphics[width=10 cm]{location.pdf}                                                                                                                                                                        
+\label{location}                                                                                                                                                                                                   
+\caption{Map of Newfoundland and Labrador annoted by location of wind data collection (yellow star).}                                                                                                              
+\end{figure} 
+  
 \begin{figure}[h!]
 \centering
 \includegraphics[width=10cm]{bar.pdf}
@@ -97,13 +109,6 @@ less-advanced weather station.}
 \includegraphics[width=10cm]{contourf.pdf}
 \caption{Directional wind data from user-defined Newfoundland and Labrador airport plotted on a filled contour polar diagram from the Windrose Python package.}
 \label{contourf_windrose}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=10 cm]{location.pdf}
-\label{location}
-\caption{Map of Newfoundland and Labrador annoted by location of wind data collection (yellow star).}
 \end{figure}
 
 \section{Disscusion and Conclusions}\label{Disscusion_and_conclusions}
