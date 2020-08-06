@@ -57,11 +57,12 @@ def plotMap(loc):
     m.drawparallels(np.arange(40, 60, 1), labels=[1, 0, 0, 0])
     m.drawmeridians(np.arange(-65, -50, 1), labels=[0, 0, 0, 1])
     m.plot(coords[0], coords[1], marker='*', color='yellow', markersize=15)
-
+    plt.xlabel('Longitude', labelpad=40, fontsize=12)
+    plt.ylabel('Latitude', labelpad=40, fontsize=12)
     plt.savefig('location.pdf', pad_inches=0, bbox_inches='tight')
     plt.show()
 
-plotMap('St.Johns_2012-2019')
+#plotMap('St.Johns_2012-2019')
 
 def main(args):
     if len(args) != 2:
